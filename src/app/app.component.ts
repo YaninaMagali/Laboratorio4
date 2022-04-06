@@ -10,11 +10,11 @@ import { Usuario } from './Usuario/usuario';
 
 
 export class AppComponent {
- //miSuma:Suma;
+ miSuma:Suma;
  miLogin:Usuario;
   
  constructor(){
-   //this.miSuma = new Suma();
+   this.miSuma = new Suma();
    this.miLogin = new Usuario();
  }
 
